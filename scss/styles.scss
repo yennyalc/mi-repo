@@ -1,0 +1,272 @@
+
+@import "base/color"; 
+@import "base/tipogr";
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand {
+    width: 6rem;
+    
+  
+}
+
+
+/*barra de navegacion*/
+
+
+.nav-item {
+    padding-top: 30px;
+}
+
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+    
+
+
+a {
+   
+    
+    font-family: $tipo-terciaria;
+    color: $textos;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 40px;
+    
+
+    &:hover {
+        background-color: $hover;
+        border-radius: 20px;
+        color: white;
+    }
+}
+}
+
+
+/*Video*/
+
+.video { 
+
+
+    text-align: center;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+
+/* iconos footer*/ 
+
+
+
+footer img {
+    width: 3%;
+    top: 2rem;
+    right: 2rem;
+  }
+
+
+
+
+
+/*Decoracion ondas encabezado*/
+
+.custom-shape-divider-top-1610495137 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1610495137 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 73px;
+}
+
+.custom-shape-divider-top-1610495137 .shape-fill {
+    fill: #AAE068;
+}
+
+/*seccion shop*/
+
+
+#carouselExampleDark {
+    font-family: $tipo-terciaria;
+ 
+}
+
+
+/*seccion contactanos*/
+
+h6 {
+
+    text-align: center;
+    font-family: $tipo-terciaria;
+    font-weight: bold;
+    font-size: 1rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: $textos;
+}
+
+.form {
+
+    width: 30rem;
+    border: 1px solid $hover;
+    border-radius: 10px;
+    background-color: $hover;
+    box-shadow: 4px 4px 5px -1px #b7b7b7;
+    padding: 30px;
+    font-family: $tipo-terciaria;
+    margin-left: 22rem;
+
+   
+    .form-label {
+        width: 20rem;
+        color: white;
+    }
+}
+
+
+
+
+/* Boton enviar contacto*/
+.boton-enviar {
+    
+ 
+    width: 90px;
+    height: 30px;
+    background-color: #c5f06d;
+    font-family: $tipo-terciaria;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+
+
+}
+
+.escribenos {
+
+    padding-top: 30px;
+    font-family: $tipo-terciaria;
+    color: $textos;
+   text-align: center;
+}
+
+/*Seccion nosotros*/
+
+#columnasnosotras {
+
+    background-color: $ondas-claras;
+}
+
+.proposito-nosotras {
+
+text-align: center;
+font-size: 1rem;
+padding: 3rem;
+
+}
+
+.fotos-nosotras {
+    padding-top: 5rem;
+}
+
+
+.foto-1 {
+    width: 13rem;
+    
+}
+
+.foto-2 {
+    width: 13rem;
+}
+
+.erika  {
+
+   display: inline-block;
+  
+    font-family: $tipo-terciaria;
+    color: $otros-titulos;
+    text-align: center;
+padding-right: 5rem;
+padding-left: 20rem;
+
+
+}
+
+.yenny {
+
+display: inline-block;
+    text-align: center;
+    font-family: $tipo-terciaria;
+    color: $otros-titulos;
+   
+}
+
+/* Seccion index*/
+
+
+#columnasinicio {
+
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+   background-color: $ondas-claras;
+
+    }
+.slogan {
+    font-family: $tipo-terciaria;
+    color: #bb9e7f;
+    padding-top: 12rem;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+}
+
+.proposito {
+    font-family: $tipo-terciaria;
+    padding-left: 3rem;
+    
+}
+
+    .foto-persona {
+        width: 30rem;
+    }
+
+/*seccion blog*/
+
+.tarjetas-blog {
+    text-decoration: none;
+}
+.card-title {
+    color: $titulos;
+    font-family: $tipo-terciaria;
+}
+
+.card-text {
+    color: $textos;
+    font-family: $tipo-parrafo;
+}
+
+.text-muted {
+    font-family: $tipo-parrafo;
+}
+
+
+
+
