@@ -1,0 +1,371 @@
+* {
+    background-color: beige;
+
+}
+
+/*Mobile styles*/
+
+@media only screen and (max-width:400px) {
+
+    body {
+        background-color: #b89875;
+    }
+}
+
+/*Tablet styles*/
+
+@media only screen and (min-width:401px) and (max-width:960px) {
+
+    body {
+        background-color: #776f66;
+    }
+
+
+}
+
+
+
+
+/*frase be the change*/
+h2 {
+
+    color: yellowgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+ 
+
+}
+
+/*texto inicial de bienvenida*/
+.texto-bienvenida {
+    color: darkslategrey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+/*navegación*/
+header nav a {
+
+    font-family: 'Raleway', sans-serif;
+    color: olivedrab;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 20px;
+
+}
+
+
+/*hover navegación*/
+header nav a:hover {
+    background-color: yellowgreen;
+    border-radius: 10px;
+
+}
+
+/*navegación centrada*/
+.navbar {
+
+    text-align: center;
+}
+
+/*pagina inicio*/
+.video {
+    text-align: center;
+    margin: 20px;
+    background-color: beige;
+    border-radius: 15px;
+}
+
+/* pagina nosotros*/
+.proposito {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    background-color: yellowgreen;
+    border-radius: 10px;
+ 
+}
+
+
+/*pagina contacto*/
+.escribenos {
+    font-family: 'Raleway', sans-serif;
+    color: sienna;
+
+}
+
+/*pagina tips*/
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.tips {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    width: 100%;
+
+}
+
+.casa {
+
+    background-color: #baa590;
+    height: 250px;
+    width: 250px;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+    border-style: dotted;
+
+
+}
+
+.trabajo {
+
+    background-color: #f1dbc4;
+    height: 250px;
+    width: 250px;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+    border-style: dotted;
+
+
+}
+
+.higiene {
+
+    background-color: #ffe8d2;
+    height: 250px;
+    width: 250px;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+    border-style: dotted;
+
+}
+
+.alimentación {
+
+    background-color: #ffdab9;
+    height: 250px;
+    width: 250px;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+    border-style: dotted;
+}
+
+
+
+/*menu y submenu*/
+
+nav ul li {
+
+    list-style: none;
+    display: inline-block;
+
+}
+
+
+
+.dropdown-menu {
+
+    font-family: 'Raleway', sans-serif;
+
+    display: flex;
+
+    flex-direction: column;
+
+    background-color: #5a554f;
+
+    border-radius: 5px;
+
+    padding-top: 60px;
+
+    position: absolute;
+
+    top: -15px;
+   
+
+
+
+
+    /*left: 950px; */
+
+}
+
+
+
+.dropdown-menu li {
+
+    font-family: 'Raleway', sans-serif;
+
+    color: #f1dbc4;
+
+    list-style-type: none;
+
+    border-bottom: 1px solid #f1dbc4;
+
+    padding: 0 40px;
+
+    margin: 10px;
+
+    border-radius: 5px;
+
+
+
+}
+
+.dropdown-menu li:last-of-type {
+
+    font-family: 'Raleway', sans-serif;
+
+    border-bottom: none;
+
+
+
+}
+
+
+
+.dropdown {
+
+    font-family: 'Raleway', sans-serif;
+
+    position: relative;
+
+}
+
+
+
+.dropdown a {
+
+    font-family: 'Raleway', sans-serif;
+
+    z-index: 2;
+
+    position: relative;
+
+}
+
+.dropdown-menu {
+
+    font-family: 'Raleway', sans-serif;
+
+    display: none;
+
+}
+
+
+
+.dropdown:hover .dropdown-menu {
+
+    font-family: 'Raleway', sans-serif;
+
+    display: flex;
+
+    flex-direction: column;
+
+    background-color: #a1886d;
+
+}
+
+
+
+
+
+/*shop*/
+
+
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+
+.fotos {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    width: 100%;
+
+
+}
+
+.producto1 {
+    background-color: #baa590;
+    height: 250px;
+    width: 250px;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+    border-style: dotted;
+}
+
+.producto2 {
+    background-color: #baa590;
+    height: 250px;
+    width: 250px;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+    border-style: dotted;
+}
+
+.producto3 {
+    background-color: #baa590;
+    height: 250px;
+    width: 250px;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+    border-style: dotted;
+}
+
+.producto4 {
+    background-color: #baa590;
+    height: 250px;
+    width: 250px;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+    border-style: dotted;
+}
+
+
+
+
+
+
+section img {
+    width: 100%;
+}
+
+
+div img {
+    width: 15%;
+    margin: 10px auto;
+    display: block;
+
+}
+
+footer button {
+    background-color: #6b8e23;
+    border-radius: 5px;
+    border: none;
+}
+
+footer button a {
+    background-color: #6b8e23;
+   color: #f8f8f8;
+}
+
+.redes {
+    position:fixed;
+    bottom: 0px;
+    right: 0px;
+
+}
